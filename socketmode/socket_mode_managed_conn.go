@@ -12,10 +12,10 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/slack-go/slack"
-	"github.com/slack-go/slack/internal/backoff"
-	"github.com/slack-go/slack/internal/timex"
-	"github.com/slack-go/slack/slackevents"
+	"github.com/wundergraph/slack"
+	"github.com/wundergraph/slack/internal/backoff"
+	"github.com/wundergraph/slack/internal/timex"
+	"github.com/wundergraph/slack/slackevents"
 )
 
 // Run is a blocking function that connects the Slack Socket Mode API and handles all incoming

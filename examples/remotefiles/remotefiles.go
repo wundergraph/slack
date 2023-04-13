@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/slack-go/slack"
+	"github.com/wundergraph/slack"
 )
 
 func main() {

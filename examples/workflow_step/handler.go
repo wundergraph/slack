@@ -3,14 +3,13 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/wundergraph/slack"
+	"github.com/wundergraph/slack/slackevents"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"net/url"
 	"time"
-
-	"github.com/slack-go/slack"
-	"github.com/slack-go/slack/slackevents"
 )
 
 const (

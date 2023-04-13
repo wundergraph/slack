@@ -2,10 +2,9 @@ package main
 
 import (
 	"bytes"
+	"github.com/wundergraph/slack"
 	"io/ioutil"
 	"net/http"
-
-	"github.com/slack-go/slack"
 )
 
 func (v *SecretsVerifierMiddleware) ServeHTTP(w http.ResponseWriter, r *http.Request) {
